@@ -1,5 +1,5 @@
 # 🇩🇪 🇺🇸 FlipGmbH
-Rebase.co for German GmbH's. Flip your German GmbH to Delaware to be venture-compatible
+Rebase.co for German GmbH's. Flip your German GmbH to a Delaware C-Corp to be compatible for international venture funding.
 
 Inspired by rebase.co which helps remote workers migrate to Portugal, this project is dedicated to be a resource to help German Startup founders move ("flip") their GmbH to a Delaware C-Corp.
 
