@@ -2,12 +2,12 @@
     "redirects": [
       { 
         "source": "/:path*",
-        "destination": "https://richventures.com/posts/how-i-would-start-my-next-startup-in-germany-without-a-gmbh", 
+        "destination": "https://github.com/PeerRich/flipgmbh", 
         "permanent": true
       },
       { 
         "source": "/",
-        "destination": "https://richventures.com/posts/how-i-would-start-my-next-startup-in-germany-without-a-gmbh", 
+        "destination": "https://github.com/PeerRich/flipgmbh", 
         "permanent": true
       }
     ]
