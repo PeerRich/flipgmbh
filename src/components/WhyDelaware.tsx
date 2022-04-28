@@ -14,6 +14,7 @@ const benefits = [
     "Simpler captable management",
     "Online incorporation",
     "No public company register (no spam, more privacy)",
+    "From idea to IPO, no reincorporation required (GmbH's can't go public)"
   ];
 export default function WhyDelaware(){
     return <section
