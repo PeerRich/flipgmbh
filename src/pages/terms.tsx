@@ -1,13 +1,18 @@
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import OurApproach from "../components/OurApproach";
-import WhyDelaware from "../components/WhyDelaware";
+import Meta from "../components/Meta";
 
 export default function Terms() {
   return (
     <div>
       <div className="bg-white">
+        <Meta
+          title="FlipGmbH | Terms of Service"
+          url="https://flipgmbh.com"
+          img="https://flipgmbh.com/og-image.png"
+          description="Find out if you qualify, follow the steps and get connected to a specialised lawfirm that can help with your flip."
+        />
         <Banner />
         <Header />
         <main className="overflow-hidden">
@@ -21,12 +26,10 @@ export default function Terms() {
                         Terms of Service
                       </h1>
                       Effective date: 4/28/2021
-                      <h2 className="text-3xl text-gray-900">
-                        Introduction
-                      </h2>
+                      <h2 className="text-3xl text-gray-900">Introduction</h2>
                       <p>
-                        Welcome to FlipGmbH (“Company”, “we”, “our”, “us”)!
-                        As you have just clicked our Terms of Service, please
+                        Welcome to FlipGmbH (“Company”, “we”, “our”, “us”)! As
+                        you have just clicked our Terms of Service, please
                         pause, grab a cup of coffee and carefully read the
                         following pages. It will take you approximately 20
                         minutes.
@@ -51,14 +54,12 @@ export default function Terms() {
                       <p>
                         If you do not agree with (or cannot comply with)
                         Agreements, then you may not use the Service, but please
-                        let us know by emailing at peer@cal.com so we can try
-                        to find a solution. These Terms apply to all visitors,
+                        let us know by emailing at peer@cal.com so we can try to
+                        find a solution. These Terms apply to all visitors,
                         users and others who wish to access or use Service.
                       </p>
                       <p>Thank you for being responsible.</p>
-                      <h2 className="text-3xl text-gray-900">
-                        Communications
-                      </h2>
+                      <h2 className="text-3xl text-gray-900">Communications</h2>
                       <p>
                         By creating an Account on our Service, you agree to
                         subscribe to newsletters, marketing or promotional
@@ -67,9 +68,7 @@ export default function Terms() {
                         communications from us by following the unsubscribe link
                         or by emailing at.
                       </p>
-                      <h2 className="text-3xl text-gray-900">
-                        Purchases
-                      </h2>
+                      <h2 className="text-3xl text-gray-900">Purchases</h2>
                       <p>
                         If you wish to purchase any product or service made
                         available through Service (“Purchase”), you may be asked
@@ -117,9 +116,7 @@ export default function Terms() {
                         conflict with these Terms of Service, Promotion rules
                         will apply.
                       </p>
-                      <h2 className="text-3xl text-gray-900">
-                        Subscriptions
-                      </h2>
+                      <h2 className="text-3xl text-gray-900">Subscriptions</h2>
                       <p>
                         Some parts of Service are billed on a subscription basis
                         (“Subscription(s)”). You will be billed in advance on a
@@ -131,21 +128,21 @@ export default function Terms() {
                       <p>
                         At the end of each Billing Cycle, your Subscription will
                         automatically renew under the exact same conditions
-                        unless you cancel it or FlipGmbH cancels it. You
-                        may cancel your Subscription renewal either through your
+                        unless you cancel it or FlipGmbH cancels it. You may
+                        cancel your Subscription renewal either through your
                         online account management page or by contacting Cal.com,
                         Inc. customer support team.
                       </p>
                       <p>
                         A valid payment method, including credit card or PayPal,
                         is required to process the payment for your
-                        subscription. You shall provide FlipGmbH with
-                        accurate and complete billing information including full
-                        name, address, state, zip code, telephone number, and a
-                        valid payment method information. By submitting such
-                        payment information, you automatically authorize
-                        FlipGmbH to charge all Subscription fees incurred
-                        through your account to any such payment instruments.
+                        subscription. You shall provide FlipGmbH with accurate
+                        and complete billing information including full name,
+                        address, state, zip code, telephone number, and a valid
+                        payment method information. By submitting such payment
+                        information, you automatically authorize FlipGmbH to
+                        charge all Subscription fees incurred through your
+                        account to any such payment instruments.
                       </p>
                       <p>
                         Should automatic billing fail to occur for any reason,
@@ -155,9 +152,7 @@ export default function Terms() {
                         corresponding to the billing period as indicated on the
                         invoice.
                       </p>
-                      <h2 className="text-3xl text-gray-900">
-                        Free Trial
-                      </h2>
+                      <h2 className="text-3xl text-gray-900">Free Trial</h2>
                       <p>
                         FlipGmbH may, at its sole discretion, offer a
                         Subscription with a free trial for a limited period of
@@ -177,22 +172,20 @@ export default function Terms() {
                         selected.
                       </p>
                       <p>
-                        At any time and without notice, FlipGmbH reserves
-                        the right to (i) modify Terms of Service of Free Trial
+                        At any time and without notice, FlipGmbH reserves the
+                        right to (i) modify Terms of Service of Free Trial
                         offer, or (ii) cancel such Free Trial offer.
                       </p>
-                      <h2 className="text-3xl text-gray-900">
-                        Fee Changes
-                      </h2>
+                      <h2 className="text-3xl text-gray-900">Fee Changes</h2>
                       <p>
-                        FlipGmbH, in its sole discretion and at any time,
-                        may modify Subscription fees for the Subscriptions. Any
+                        FlipGmbH, in its sole discretion and at any time, may
+                        modify Subscription fees for the Subscriptions. Any
                         Subscription fee change will become effective at the end
                         of the then-current Billing Cycle.
                       </p>
                       <p>
-                        FlipGmbH will provide you with a reasonable prior
-                        notice of any change in Subscription fees to give you an
+                        FlipGmbH will provide you with a reasonable prior notice
+                        of any change in Subscription fees to give you an
                         opportunity to terminate your Subscription before such
                         change becomes effective.
                       </p>
@@ -201,16 +194,12 @@ export default function Terms() {
                         change comes into effect constitutes your agreement to
                         pay the modified Subscription fee amount.
                       </p>
-                      <h2 className="text-3xl text-gray-900">
-                        Refunds
-                      </h2>
+                      <h2 className="text-3xl text-gray-900">Refunds</h2>
                       <p>
                         Except when required by law, paid Subscription fees are
                         non-refundable.
                       </p>
-                      <h2 className="text-3xl text-gray-900">
-                        Content
-                      </h2>
+                      <h2 className="text-3xl text-gray-900">Content</h2>
                       <p>
                         Our Service allows you to post, link, store, share and
                         otherwise make available certain information, text,
@@ -246,15 +235,14 @@ export default function Terms() {
                         to these Terms.
                       </p>
                       <p>
-                        FlipGmbH has the right but not the obligation to
-                        monitor and edit all Content provided by users. In
-                        addition, Content found on or through this Service are
-                        the property of FlipGmbH or used with permission.
-                        You may not distribute, modify, transmit, reuse,
-                        download, repost, copy, or use said Content, whether in
-                        whole or in part, for commercial purposes or for
-                        personal gain, without express advance written
-                        permission from us.
+                        FlipGmbH has the right but not the obligation to monitor
+                        and edit all Content provided by users. In addition,
+                        Content found on or through this Service are the
+                        property of FlipGmbH or used with permission. You may
+                        not distribute, modify, transmit, reuse, download,
+                        repost, copy, or use said Content, whether in whole or
+                        in part, for commercial purposes or for personal gain,
+                        without express advance written permission from us.
                       </p>
                       <h2 className="text-3xl text-gray-900">
                         Prohibited Uses
@@ -345,9 +333,7 @@ export default function Terms() {
                           of Service.
                         </li>
                       </ul>
-                      <h2 className="text-3xl text-gray-900">
-                        Analytics
-                      </h2>
+                      <h2 className="text-3xl text-gray-900">Analytics</h2>
                       <p>
                         We may use third-party Service Providers to monitor and
                         analyze the use of our Service.
@@ -385,9 +371,7 @@ export default function Terms() {
                         eighteen (18) years old, you are prohibited from both
                         the access and usage of Service.
                       </p>
-                      <h2 className="text-3xl text-gray-900">
-                        Accounts
-                      </h2>
+                      <h2 className="text-3xl text-gray-900">Accounts</h2>
                       <p>
                         When you create an account with us, you guarantee that
                         you are above the age of 18, and that the information
@@ -430,12 +414,12 @@ export default function Terms() {
                       <p>
                         Service and its original content (excluding Content
                         provided by users), features and functionality are and
-                        will remain the exclusive property of FlipGmbH and
-                        its licensors. Service is protected by copyright,
-                        trademark, and other laws of foreign countries. Our
-                        trademarks and trade dress may not be used in connection
-                        with any product or service without the prior written
-                        consent of FlipGmbH.
+                        will remain the exclusive property of FlipGmbH and its
+                        licensors. Service is protected by copyright, trademark,
+                        and other laws of foreign countries. Our trademarks and
+                        trade dress may not be used in connection with any
+                        product or service without the prior written consent of
+                        FlipGmbH.
                       </p>
                       <h2 className="text-3xl text-gray-900">
                         Copyright Policy
@@ -643,9 +627,7 @@ export default function Terms() {
                         DAMAGES, SO THE PRIOR LIMITATION OR EXCLUSION MAY NOT
                         APPLY TO YOU.
                       </p>
-                      <h2 className="text-3xl text-gray-900">
-                        Termination
-                      </h2>
+                      <h2 className="text-3xl text-gray-900">Termination</h2>
                       <p>
                         We may terminate or suspend your account and bar access
                         to Service immediately, without prior notice or
@@ -664,9 +646,7 @@ export default function Terms() {
                         warranty disclaimers, indemnity and limitations of
                         liability.
                       </p>
-                      <h2 className="text-3xl text-gray-900">
-                        Governing Law
-                      </h2>
+                      <h2 className="text-3xl text-gray-900">Governing Law</h2>
                       <p>
                         These Terms shall be governed and construed in
                         accordance with the laws of the United Kingdom without
@@ -743,9 +723,7 @@ export default function Terms() {
                         ACKNOWLEDGE THAT YOU HAVE READ THESE TERMS OF SERVICE
                         AND AGREE TO BE BOUND BY THEM.
                       </p>
-                      <h2 className="text-3xl text-gray-900">
-                        Contact Us
-                      </h2>
+                      <h2 className="text-3xl text-gray-900">Contact Us</h2>
                       <p>
                         If you have any questions about these terms of service,
                         please contact us:

@@ -1,13 +1,18 @@
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import OurApproach from "../components/OurApproach";
-import WhyDelaware from "../components/WhyDelaware";
+import Meta from "../components/Meta";
 
 export default function Privacy() {
   return (
     <div>
       <div className="bg-white">
+        <Meta
+          title="FlipGmbH | Privacy"
+          url="https://flipgmbh.com"
+          img="https://flipgmbh.com/og-image.png"
+          description="Find out if you qualify, follow the steps and get connected to a specialised lawfirm that can help with your flip."
+        />
         <Banner />
         <Header />
         <main className="overflow-hidden">
