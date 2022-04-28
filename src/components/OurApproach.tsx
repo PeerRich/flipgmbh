@@ -24,6 +24,13 @@ export default function OurApproach() {
               Lastly, we will connect you with a lawyer to discuss the final
               steps of the flip.
             </p>
+
+            <p className="mt-6 text-lg text-stone-500 max-w-3xl">
+              Inspired by <a className="text-blue-500 underline" href="https://richventures.com/posts/how-i-would-start-my-next-startup-in-germany-without-a-gmbh">
+              https://richventures.com/posts/how-i-would-start-my-next-startup-in-germany-without-a-gmbh
+              </a>
+            </p>
+            
           </div>
           <blockquote className="twitter-tweet">
             <p lang="en" dir="ltr">
