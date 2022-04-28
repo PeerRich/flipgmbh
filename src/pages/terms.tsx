@@ -37,13 +37,13 @@ export default function Terms() {
                       <p>
                         These Terms of Service (“Terms”, “Terms of Service”)
                         govern your use of our web pages located at
-                        https://cal.com operated by FlipGmbH.
+                        https://flipgmbh.com operated by FlipGmbH.
                       </p>
                       <p>
                         Our Privacy Policy also governs your use of our Service
                         and explains how we collect, safeguard and disclose
                         information that results from your use of our web pages.
-                        Please read it here https://cal.com/privacy.
+                        Please read it here https://flipgmbh.com/privacy.
                       </p>
                       <p>
                         Your agreement with us includes these Terms and our
