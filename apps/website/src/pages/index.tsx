@@ -1,9 +1,7 @@
-import { Fragment } from "react";
-import { Popover, Transition } from "@headlessui/react";
-import { MailIcon, MenuIcon, PhoneIcon, XIcon } from "@heroicons/react/outline";
 import { CheckCircleIcon } from "@heroicons/react/solid";
 
 import "cal-sans";
+import Banner from "../components/Banner";
 
 const benefits = [
   "Standard for venture-funded startups",
@@ -44,10 +42,10 @@ const footerNavigation = {
   ],
 };
 
-export default function Example() {
+export default function Index() {
   return (
     <div className="bg-white">
-      <Popover as="header" className="relative">
+      <Banner />
         <div className="bg-stone-50">
           <nav
             className="relative max-w-7xl mx-auto flex items-center justify-between pt-6 px-6 xl:px-8"
@@ -55,13 +53,7 @@ export default function Example() {
           >
             <div className="flex items-center flex-1">
               <div className="flex font-cal items-center justify-between w-full lg:w-auto">
-                <a href="#">FlipGmbH</a>
-                <div className="-mr-2 flex items-center lg:hidden">
-                  <Popover.Button className="bg-stone-50 rounded-md p-2 inline-flex items-center justify-center text-stone-400 hover:bg-stone-100 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-black">
-                    <span className="sr-only">Open main menu</span>
-                    <MenuIcon className="h-6 w-6" aria-hidden="true" />
-                  </Popover.Button>
-                </div>
+              🇩🇪 🇺🇸 FlipGmbH
               </div>
             </div>
             <div className="hidden lg:flex lg:items-center lg:space-x-6">
@@ -74,50 +66,6 @@ export default function Example() {
             </div>
           </nav>
         </div>
-
-        <Transition
-          as={Fragment}
-          enter="duration-150 ease-out"
-          enterFrom="opacity-0 scale-95"
-          enterTo="opacity-100 scale-100"
-          leave="duration-100 ease-in"
-          leaveFrom="opacity-100 scale-100"
-          leaveTo="opacity-0 scale-95"
-        >
-          <Popover.Panel
-            focus
-            className="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top lg:hidden"
-          >
-            <div className="rounded-lg shadow-lg bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-              <div className="px-5 pt-4 flex items-center justify-between">
-                <div>
-                  <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark.svg?color=teal&shade=500"
-                    alt=""
-                  />
-                </div>
-                <div className="-mr-2">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-stone-400 hover:bg-stone-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
-                    <span className="sr-only">Close menu</span>
-                    <XIcon className="h-6 w-6" aria-hidden="true" />
-                  </Popover.Button>
-                </div>
-              </div>
-              <div className="pt-5 pb-6">
-                <div className="mt-6 px-5">
-                  <a
-                    href="#"
-                    className="block text-center w-full py-2 px-4 border border-transparent rounded-md shadow bg-black text-white font-medium hover:bg-teal-600"
-                  >
-                    Login
-                  </a>
-                </div>
-              </div>
-            </div>
-          </Popover.Panel>
-        </Transition>
-      </Popover>
 
       <main className="overflow-hidden">
         <div className="bg-stone-50">
@@ -485,6 +433,9 @@ export default function Example() {
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-8 xl:col-span-1">
+            <div className="flex text-white font-cal items-center justify-between w-full lg:w-auto">
+              🇩🇪 🇺🇸 FlipGmbH
+              </div>
               <p className="text-stone-400 text-base">
                 Helping ambitious German founders to do <br />
                 the right thing to grow and thrive.
