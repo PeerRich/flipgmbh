@@ -4,7 +4,7 @@ export default function OurApproach() {
   return (
     <section>
       <div className="max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-        <div className="block sm:grid grid-cols-2 space-x-8">
+        <div className="block sm:grid grid-cols-2 sm:space-x-8">
           <div>
             <h2 className="text-3xl mt-10 font-extrabold text-stone-900">
               Our approach
