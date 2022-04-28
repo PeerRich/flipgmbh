@@ -5,6 +5,8 @@ import Meta from "../components/Meta";
 import Header from "../components/Header";
 import OurApproach from "../components/OurApproach";
 import WhyDelaware from "../components/WhyDelaware";
+import FAQ from "../components/FAQ";
+import Options from "../components/Options";
 
 export default function Index() {
   return (
@@ -48,6 +50,10 @@ export default function Index() {
         </div>
         <WhyDelaware />
         <OurApproach />
+        <Options />
+        {/* TODO: help needed for FAQs, post your question in  https://github.com/PeerRich/flipgmbh/discussions
+        <FAQ />
+         */}
       </main>
       <Footer />
     </div>
