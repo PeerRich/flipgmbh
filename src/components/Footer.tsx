@@ -11,11 +11,6 @@ const footerNavigation = {
     { name: "Source Code", href: "https://github.com/peerrich/flipgmbh" },
     { name: "Announcement", href: "https://twitter.com/peer_rich/status/1519278333481074693" },
   ],
-  company: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-  ],
   legal: [
     { name: "Terms", href: "/terms" },
     { name: "Privacy", href: "/privacy" },
@@ -75,22 +70,6 @@ export default function Footer() {
               </div>
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold text-stone-200 tracking-wider uppercase">
-                  Company
-                </h3>
-                <ul role="list" className="mt-4 space-y-4">
-                  {footerNavigation.company.map((item) => (
-                    <li key={item.name}>
-                      <Link href={item.href}>
-                        <a className="text-base text-stone-400 hover:text-stone-300">
-                          {item.name}
-                        </a>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
               <div className="mt-12 md:mt-0">
                 <h3 className="text-sm font-semibold text-stone-200 tracking-wider uppercase">
                   Legal

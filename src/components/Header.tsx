@@ -14,6 +14,7 @@ export default function Header() {
             </a>
           </Link>
         </div>
+        {/* TODO: dashboard coming soon. help wanted
         <div className="hidden lg:flex lg:items-center lg:space-x-6">
           <a
             href="#"
@@ -22,6 +23,7 @@ export default function Header() {
             Login
           </a>
         </div>
+         */}
       </nav>
     </div>
   );
